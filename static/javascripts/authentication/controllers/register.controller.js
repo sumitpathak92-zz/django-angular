@@ -6,7 +6,7 @@
   'use strict';
 
   angular
-    .module('authentication.controllers')
+    .module('thinkster.authentication.controllers')
     .controller('RegisterController', RegisterController);
 
   RegisterController.$inject = ['$location', '$scope', 'Authentication'];

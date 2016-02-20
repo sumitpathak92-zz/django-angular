@@ -2,14 +2,14 @@
   'use strict';
 
   angular
-    .module('authentication', [
-      'authentication.controllers',
-      'authentication.services'
+    .module('thinkster.authentication', [
+      'thinkster.authentication.controllers',
+      'thinkster.authentication.services'
     ]); //defines modules with its dependencies
 
   angular
-    .module('authentication.controllers', []);
+    .module('thinkster.authentication.controllers', []);
 
   angular
-    .module('authentication.services', ['ngCookies']);
+    .module('thinkster.authentication.services', ['ngCookies']);
 })();
